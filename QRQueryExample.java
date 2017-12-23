@@ -13,7 +13,7 @@ import org.json.JSONException;
 public class QRQueryExample {
 public static void main(String[] args) { 
 	ArrayList<String> barCodes = new ArrayList<String>();
-	barCodes.add("t=20171007T1024&s=129.90&fn=8710000100240299&i=40143&fp=1324042032&n=1"); 
+	barCodes.add("t=20171007T0856&s=279.90&fn=8710000100923403&i=95961&fp=3153580303&n=1");
     for (int codeIndex = 0; codeIndex < barCodes.size(); ++codeIndex) {
         String parameters = barCodes.get(codeIndex);
         int newChecks = 0;
